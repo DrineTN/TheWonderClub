@@ -6,6 +6,17 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+.thambinail{
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+     /* Set a small width */
+      box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/* Add a hover effect (blue shadow) */
+
+}
 #clubs{
 	padding: 12em 0 10em 0 ;
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/cov.jpg");
