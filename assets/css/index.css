@@ -1,14 +1,27 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
+  max-width: 250px;
   margin: auto;
   text-align: center;
   font-family: arial;
 }
-
+.card h2{
+   font-size: 17px;
+}
 .title {
   color: grey;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 button {
@@ -17,7 +30,7 @@ button {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000;
+  background-color: #90a4ae;
   text-align: center;
   cursor: pointer;
   width: 100%;
