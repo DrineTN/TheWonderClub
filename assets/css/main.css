@@ -16,7 +16,27 @@
 }
 
 /* Add a hover effect (blue shadow) */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
 
+@media (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
 #clubs{
 	padding: 12em 0 10em 0 ;
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/cov.jpg");
